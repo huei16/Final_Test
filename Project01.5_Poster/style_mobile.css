@@ -7,7 +7,7 @@ body {background-color: #E0DBC6; margin: 0;}
    ------------------ */
 .grid-container{ display: grid;
   grid-template-columns: [line1] 21vw [line2] 4vw [line3] 21vw [line4] 4vw [line5] 21vw [line6] 4vw [line7] 21vw [line8] 4vw [line9];
-  grid-template-rows: [row2] 7vh [row3] 17vh [row4] 7vh [row5] 17vh [row6] 7vh [row7] 17vh [row8] 7vh [row9] 17vh [row10];
+  grid-template-rows: [row2] 7% [row3] 17% [row4] 7% [row5] 17% [row6] 7% [row7] 17% [row8] 7% [row9] 17% [row10];
   overflow: hidden;
 }
 .r1{ /*grid-column-start: 3;grid-row-end: 3;*/
