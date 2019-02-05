@@ -54,9 +54,9 @@ p {font-size: 14px; font-weight: 400; line-height: 18px;}
          }
 
 
-h1 { left: 3vw; top: 15px; z-index: 10;}
-.info1 { left: 3vw; top: 300px; z-index: 10;}
-.info2 { left: 3vw; top: 380px; z-index: 10;}
+h1 { left: 3vw; top: 10px; z-index: 10;}
+.info1 { left: 3vw; top: 290px; z-index: 10;}
+.info2 { left: 3vw; top: 370px; z-index: 10;}
 .reference { width:500px; margin-left: -250px; left:50%;bottom: 3vh; z-index: 21; text-align: center;}
 
 
