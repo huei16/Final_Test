@@ -67,6 +67,9 @@ p{font-weight: 700;font-size: 30px; line-height:50px;}
 
 .title{position: absolute; top:200px; color:white; background-color: black; z-index: 100; font-size: 20px; padding-left: 2ch; padding-right: 1ch;}
 .title:visited{color: white;}
+.mbtitle{position: absolute; opacity: 0; z-index: -10;}
+.mbtitle-box{position: absolute; opacity: 0; z-index: -10;}
+
 /* .PJ1Title{margin-left: -8ch; left:50%;} */
 
 .preview{transition: .5s;}
