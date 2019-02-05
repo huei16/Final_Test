@@ -2,11 +2,17 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <title>Top of the World</title>
-  <link rel="stylesheet" href="style.css"
+  <link rel="stylesheet" media='screen and (min-width: 701px)' href="style.css">
+  <link rel="stylesheet" media='screen and (max-width: 700px)' href="style_mobile.css">
+
 </head>
 <body>
   <!-- CENTER ELEMENTS -->
+  <div class="mobile_bg">
+    <img class="mobile_bg"src="shapes/sketch_mobile.png">
+  </div>
   <div id="hide">
         <div class="instruction">
             You have to listen to my favorite song of all time <3<br>
@@ -14,6 +20,12 @@
             It's super easy and obvious!<br>
             <br>
             <a id="yes"> Gotcha!</a>
+        </div>
+        <div class="instruction_mobile">
+            Find and hit the play button to listen to my all time favorite song &sung; &sung; &sung; <br>
+            It's super easy and obvious!<br>
+            <br>
+            <a id="yess"> Gotcha!</a>
         </div>
         <div class="curtain">
         </div>
@@ -110,6 +122,7 @@
     <div class="your-love">
       <p> "Your love's put me at the top of the world." </p>
     </div>
+    <div class="your-love-bg"></div>
 
     <audio id="song">
     <source src="top-of-the-world.mp3" type="audio/mpeg">
