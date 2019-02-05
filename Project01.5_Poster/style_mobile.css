@@ -48,16 +48,16 @@ h1, p, .reference { color: #0C2E3D; font-family: 'Hind Guntur', sans-serif;
         position:fixed; }
 h1 {font-size: 40px; font-weight: 600; line-height: 43px;}
 p {font-size: 14px; font-weight: 400; line-height: 18px;}
-.reference{font-size: 14px; font-weight: 500;
+.reference{font-size: 14px; font-weight: 700;
           /*padding: 5px;
           border-style: solid; border-color: #0C2E3D; border-width: 2px; border-radius: 5px;*/
          }
 
 
-h1 { left: 3vw; top: 25vh;}
-.info1 { left: 3vw; top: 66vh;}
-.info2 { left: 3vw; top: 75vh;}
-.reference { right: 3vw; bottom: 5.7vh; z-index: 21;}
+h1 { left: 3vw; top: 18vh;}
+.info1 { left: 3vw; top: 59vh;}
+.info2 { left: 3vw; top: 68vh;}
+.reference { right: 3vw; bottom: 3vh; z-index: 21;}
 
 
 /* ------------------
@@ -78,7 +78,7 @@ h1 { left: 3vw; top: 25vh;}
   font-family: 'Hind Guntur', sans-serif; cursor: pointer;
 }
 
-
+.og-poster{width:80vw; position: relative;top:-20px;}
 
 
 
