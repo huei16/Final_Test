@@ -12,7 +12,7 @@ body {
 
 .hi{position: absolute; width:100%; text-align: center; top:120px;}
 .blank{height:20px; width: 100%;}
-.secret{font-size: 16px; position: absolute; width:300px; margin-left: -150px; left:50%; text-align: center;color: #ffb757; bottom:20px;
+.secret{font-size: 16px; position: absolute; width:300px; margin-left: -150px; left:50%; text-align: center;color: #ffb757; bottom:10px;
   /* #ff9800; */
   z-index: -10;}
 
@@ -55,7 +55,7 @@ p{font-weight: 700;font-size: 20px; line-height:50px;}
 .me{position: absolute;right:500px; top:200px;}
 
 
-.sec2{height:1140px; position: relative; background-color:rgba(255,152,0,0);}
+.sec2{height:1150px; position: relative; background-color:rgba(255,152,0,0);}
 .BTT{color: black;position: absolute; bottom: 5vh; right:5vw; opacity: 0;}
 
 .PJ{width:300px;height:150px;background-color: peachpuff; overflow: hidden; position: relative;}
@@ -68,8 +68,24 @@ p{font-weight: 700;font-size: 20px; line-height:50px;}
 .preview{width:300px;}
 
 
-.title{position: absolute; top:200px; color:white; background-color: black; z-index: 100; font-size: 20px; padding-left: 2ch; padding-right: 1ch;}
-.title:visited{color: white;}
+.title{opacity: 0; z-index: -10; position: absolute;}
+.mbtitle{color:white; z-index: 100; font-size: 16px; width:300px; margin-left: -150px; left:50%; text-align: center; margin-top: 0px;}
+.mbtitle1{position: absolute; top:145px;}
+.mbtitle2{position: absolute; top:325px;}
+.mbtitle3{position: absolute; top:505px;}
+.mbtitle4{position: absolute; top:685px;}
+.mbtitle5{position: absolute; top:865px;}
+.mbtitle6{position: absolute; top:1045px;}
+
+.mbtitle-box1{width:160px; background-color: black; height:20px; position: absolute; top:161px; margin-left: -80px; left:50%;}
+.mbtitle-box2{width:220px; background-color: black; height:20px; position: absolute; top:341px; margin-left: -110px; left:50%;}
+.mbtitle-box3{width:250px; background-color: black; height:20px; position: absolute; top:521px; margin-left: -125px; left:50%;}
+.mbtitle-box4{width:100px; background-color: black; height:20px; position: absolute; top:701px; margin-left: -50px; left:50%;}
+.mbtitle-box5{width:90px; background-color: black; height:20px; position: absolute; top:881px; margin-left: -45px; left:50%;}
+.mbtitle-box6{width:100px; background-color: black; height:20px; position: absolute; top:1061px; margin-left: -50px; left:50%;}
+
+
+
 /* .PJ1Title{margin-left: -8ch; left:50%;} */
 
 .preview{transition: .5s;}
