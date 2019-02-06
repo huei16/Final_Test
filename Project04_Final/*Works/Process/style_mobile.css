@@ -6,21 +6,25 @@
 html {scroll-behavior: smooth;}
 body {
   font-family: 'Merriweather Sans', sans-serif;
-  height: 100vh;
+  height: 1900px;
   margin: 0;
 }
 
+/* .mBTT{color: black; position: relative; bottom: 10px; left:90vw;} */
+.BTT{position: absolute; opacity: 0; z-index: -10;}
+
 .previewbox{ width:90%; height:300px; border: 3px solid black; overflow: hidden; margin-left: 5%;}
-.previewbox:hover {
+.previewbox {
   box-shadow: 0.4rem 0.4rem 0 black;
   transform: translate(-0.4rem, -0.4rem);
 }
 .previewbox img{margin: 0 0 0 -300px;}
 
-.blank{height:7px; width: 100%;}
+.blank{height:10px; width: 100%;}
+/* .mblank{height:50px; width:100%; position: relative;} */
+
 p{width:90%; line-height: 30px; margin-left:5%; font-size: 15px;}
 
-.title{position: absolute; opacity: 0; z-index: -10;}
 h1{color: white; background-color: black; margin-top:50px; position: relative; width:300px; margin-left:-150px; left:50%; font-size: 24px; text-align: center;}
 a{color:black; text-decoration: none;}
 h3{margin-left:5%;}
@@ -75,4 +79,17 @@ h3{margin-left:5%;}
     .sidenav {padding-top: 0px;}
     .sidenav a {font-size: 18px;}
   }
-  .mnav-pj1{color: white; background-color: black;}
+  .mnav-process{color: white; background-color: black;}
+
+
+
+
+  .sketch img { width: 600px; margin: -20px 0px 0 -90px;}
+
+  .grid img { width: 650px; margin: -80px 0px 0 -60px;}
+
+  .town img { width: 700px; margin: -70px 0px 0 -85px;}
+
+  .confetti img { width: 600px; margin: -50px -50px 0 0px;}
+
+  .code img { width: 700px; margin: -80px 0px 0 -120px;}

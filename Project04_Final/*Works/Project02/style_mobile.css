@@ -15,7 +15,7 @@ body {
   box-shadow: 0.4rem 0.4rem 0 black;
   transform: translate(-0.4rem, -0.4rem);
 }
-.previewbox img{margin: 0 0 0 -300px;}
+.previewbox img{margin: 0 0 0 -550px;}
 
 .blank{height:7px; width: 100%;}
 p{width:90%; line-height: 30px; margin-left:5%; font-size: 15px;}
@@ -75,4 +75,4 @@ h3{margin-left:5%;}
     .sidenav {padding-top: 0px;}
     .sidenav a {font-size: 18px;}
   }
-  .mnav-pj1{color: white; background-color: black;}
+  .mnav-pj2{color: white; background-color: black;}

@@ -15,12 +15,11 @@ body {
   box-shadow: 0.4rem 0.4rem 0 black;
   transform: translate(-0.4rem, -0.4rem);
 }
-.previewbox img{margin: 0 0 0 -300px;}
+.previewbox img{margin: 0 0 -10px -315px;}
 
-.blank{height:7px; width: 100%;}
+.blank{height:15px; width: 100%;}
 p{width:90%; line-height: 30px; margin-left:5%; font-size: 15px;}
 
-.title{position: absolute; opacity: 0; z-index: -10;}
 h1{color: white; background-color: black; margin-top:50px; position: relative; width:300px; margin-left:-150px; left:50%; font-size: 24px; text-align: center;}
 a{color:black; text-decoration: none;}
 h3{margin-left:5%;}
@@ -75,4 +74,4 @@ h3{margin-left:5%;}
     .sidenav {padding-top: 0px;}
     .sidenav a {font-size: 18px;}
   }
-  .mnav-pj1{color: white; background-color: black;}
+  .mnav-readings{color: white; background-color: black;}
