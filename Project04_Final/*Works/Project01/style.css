@@ -20,10 +20,13 @@ body {
 p{width:1000px; line-height: 30px;}
 
 
+
 /* ---------------
         grid
   ----------------- */
+.mobile-nav{position: absolute; opacity: 0; z-index: -10;}
 
+.mbtitle{position: absolute; opacity: 0; z-index: -10;}
 h1{color: white; background-color: black; display:inline-block; margin-top:50px; }
 .grid-container{ display: grid;grid-template-columns: [line1] 20% [line2] 80%;}
 
@@ -56,5 +59,3 @@ a{color:black; text-decoration: none;}
 }
 .navs{font-size: 14px;transition:.1s;}
 .hovered{opacity: 1; transition: .3s;}
-
-.nav-pj1{color:white; background-color: black;}
